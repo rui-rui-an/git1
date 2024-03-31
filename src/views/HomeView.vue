@@ -21,7 +21,7 @@ export default {
   created() {
     console.log(this.username);
     console.log(this.$store.state.user.username);
-    this.setName('李四');
+    this.setName('李四111');
     this.generateRoutes();
     this.$store.dispatch('permission/generateRoutes');
   },
